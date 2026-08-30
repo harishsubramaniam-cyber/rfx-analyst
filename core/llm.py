@@ -90,8 +90,42 @@ def available_models(refresh: bool = False) -> list[str]:
     return _available
 
 
+_VERSION = re.compile(r"gemini-(\d+(?:\.\d+)?)")
+
+# Models the API listed but then refused to serve. See _attempt().
+_dead: set[str] = set()
+
+
+def _version(name: str) -> float:
+    """The version number in a model name, for ranking. 0.0 when unnumbered."""
+    match = _VERSION.search(name.lower())
+    return float(match.group(1)) if match else 0.0
+
+
+def ranked_models(kind: str) -> list[str]:
+    """Every model we could use for this job, best first.
+
+    Ranked rather than looked up in a list of version strings, because that
+    list has to be edited every time Google ships a version -- and when it is
+    not, the application silently keeps asking for a model that has been
+    withdrawn. Newest first, this job's branch of the family before the other,
+    and a stable, non-preview build before a preview of the same version.
+    """
+    family = config.EXTRACT_FAMILY if kind == "extract" else config.ANALYST_FAMILY
+    try:
+        live = available_models()
+    except Exception:
+        live = []
+    usable = [m for m in live if usable_model(m) and m not in _dead]
+    return sorted(
+        usable,
+        key=lambda m: (family in m.lower(), _version(m), "preview" not in m.lower()),
+        reverse=True,
+    )
+
+
 def resolve_model(kind: str) -> str:
-    """Pick a live model matching our preference order.
+    """Pick the best live model for this job.
 
     Falls back to the pinned value if the list call fails (some keys are not
     permitted to enumerate models), so a restricted key still works.
@@ -100,25 +134,16 @@ def resolve_model(kind: str) -> str:
         return _model_cache[kind]
 
     pin = config.MODEL_EXTRACT_PIN if kind == "extract" else config.MODEL_ANALYST_PIN
-    prefs = config.EXTRACT_PREFERENCES if kind == "extract" else config.ANALYST_PREFERENCES
-
     chosen: Optional[str] = None
-    try:
-        models = available_models()
-        if pin and any(pin == m or pin in m for m in models):
-            chosen = pin
-        else:
-            for want in prefs:
-                hit = next((m for m in models
-                            if want in m and usable_model(m)), None)
-                if hit:
-                    chosen = hit
-                    break
-    except Exception:
+
+    if pin and pin not in _dead:
         chosen = pin
+    else:
+        ordered = ranked_models(kind)
+        chosen = ordered[0] if ordered else None
 
     if not chosen:
-        chosen = pin or "gemini-2.5-flash"
+        chosen = "gemini-flash-latest"
 
     _model_cache[kind] = chosen
     return chosen
@@ -159,23 +184,32 @@ def candidate_models(kind: str) -> list[str]:
     """The model we want, then the ones we would accept instead.
 
     A 503 is usually specific to one model under load, so the second attempt
-    should not be at the same door. The list is built from the same preference
-    order the resolver uses, so a fallback is always a model we would have been
-    happy with anyway.
+    should not be at the same door.
     """
     first = resolve_model(kind)
-    prefs = config.EXTRACT_PREFERENCES if kind == "extract" else config.ANALYST_PREFERENCES
-    others: list[str] = []
-    try:
-        live = available_models()
-    except Exception:
-        live = []
-    for want in prefs:
-        for model in live:
-            if (want in model and usable_model(model)
-                    and model != first and model not in others):
-                others.append(model)
+    others = [m for m in ranked_models(kind) if m != first]
     return [first] + others[:2]
+
+
+# A model can be listed and still refuse to run. Google withdrew gemini-2.5-pro
+# from new keys while continuing to list it, so the application asked for it,
+# got a 404 naming a replacement, and stopped -- with the buyer reading a stack
+# trace about a model ID. A listing is a claim; only a call is proof. So a
+# refusal of the model itself is not an error to report, it is a fact to learn:
+# the model is struck off and the next-best one is tried in the same breath.
+_MODEL_GONE = (
+    "not_found", "is not found", "no longer available", "not supported",
+    "does not exist", "deprecated", "permission_denied",
+)
+_GONE_CODES = re.compile(r"(?<!\d)(400|403|404)(?!\d)")
+
+
+def is_model_unavailable(exc: Exception) -> bool:
+    """Did the API refuse THIS MODEL, rather than fail the request?"""
+    text = f"{type(exc).__name__}: {exc}".lower()
+    if not _GONE_CODES.search(text):
+        return False
+    return any(phrase in text for phrase in _MODEL_GONE)
 
 
 def _attempt(call, kind: str, what: str, max_tries: int = 3):
@@ -186,22 +220,45 @@ def _attempt(call, kind: str, what: str, max_tries: int = 3):
     when it does, the message says which models were tried.
     """
     models = candidate_models(kind)
+    tried: list[str] = []
     last: Optional[Exception] = None
-    for index, model in enumerate(models):
+    index = 0
+    while index < len(models):
+        model = models[index]
+        index += 1
+        if model in _dead:
+            continue
+        tried.append(model)
         for attempt in range(max_tries):
             try:
                 return call(model)
             except Exception as exc:
                 last = exc
+                if is_model_unavailable(exc):
+                    # Struck off for the life of the process, and the cached
+                    # choice cleared so the next call re-resolves rather than
+                    # walking into the same wall.
+                    _dead.add(model)
+                    _model_cache.pop(kind, None)
+                    for replacement in candidate_models(kind):
+                        if replacement not in tried and replacement not in models:
+                            models.append(replacement)
+                    break
                 if not is_transient(exc):
                     raise
                 if attempt < max_tries - 1:
                     time.sleep(1.5 * (2 ** attempt))     # 1.5s, 3s
-        # that model is genuinely busy; try the next one immediately
-    tried = ", ".join(models)
+        # that model is busy or gone; try the next one
+
+    listed = ", ".join(tried) or "no usable model"
+    if last is not None and is_transient(last):
+        raise RuntimeError(
+            f"{what} failed after retrying on {listed}. The models are busy rather "
+            f"than broken \u2014 this usually clears within a minute. Last error: {last}"
+        ) from last
     raise RuntimeError(
-        f"{what} failed after retrying on {tried}. The models are busy rather "
-        f"than broken — this usually clears within a minute. Last error: {last}"
+        f"{what} failed on {listed}. Every model this key can see was either "
+        f"withdrawn or refused the request. Last error: {last}"
     ) from last
 
 

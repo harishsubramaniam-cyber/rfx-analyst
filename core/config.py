@@ -43,9 +43,18 @@ GEMINI_API_KEY = _api_key()
 MODEL_EXTRACT_PIN = os.getenv("RFX_MODEL_EXTRACT")
 MODEL_ANALYST_PIN = os.getenv("RFX_MODEL_ANALYST")
 
-# Preference order, matched as substrings against the live model list.
-EXTRACT_PREFERENCES = ["3.6-flash", "3-flash", "2.5-flash", "2.0-flash", "flash"]
-ANALYST_PREFERENCES = ["3.6-pro", "3-pro", "2.5-pro", "2.5-flash", "flash"]
+# Which branch of the family each job wants. Reading documents is a fast,
+# high-volume job and goes to Flash; the analyst reasons over a whole
+# comparison and goes to Pro. Neither is a hard requirement -- if the key
+# cannot see one, the other is used.
+#
+# There is deliberately no hardcoded list of version numbers here. There was,
+# and it aged badly twice in one afternoon: the list still named 2.5-pro, which
+# Google now refuses to serve to new keys, while the model it recommends
+# instead -- 3.1-pro-preview -- was not on the list at all, so it was never
+# tried. Versions are read out of the live model names and the newest wins.
+EXTRACT_FAMILY = os.getenv("RFX_EXTRACT_FAMILY", "flash")
+ANALYST_FAMILY = os.getenv("RFX_ANALYST_FAMILY", "pro")
 
 DB_PATH = os.getenv("RFX_DB", "rfx.db")
 
