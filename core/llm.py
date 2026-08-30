@@ -38,6 +38,24 @@ class _AfcAdviceFilter(logging.Filter):
 
 logging.getLogger("google_genai.models").addFilter(_AfcAdviceFilter())
 
+# Model names are matched as substrings against the live list, and the live
+# list contains far more than chat models. "3-pro" matched
+# "gemini-3-pro-image-preview" -- an image-generation model, which accepts a
+# prompt happily and then never issues a function call, so the analyst sat
+# there with a database it could not query and the drafting co-pilot stopped
+# editing the request. Anything that is not a general text model is excluded by
+# name before the preference order is applied.
+_NOT_A_CHAT_MODEL = ("vision", "embedding", "embed", "image", "imagen", "veo",
+                     "tts", "audio", "live", "computer-use", "gemma",
+                     "learnlm", "aqa")
+
+
+def usable_model(name: str) -> bool:
+    """Is this a general text model we can hold a tool-calling conversation with?"""
+    lowered = (name or "").lower()
+    return bool(lowered) and not any(bad in lowered for bad in _NOT_A_CHAT_MODEL)
+
+
 _client: Optional[genai.Client] = None
 _model_cache: dict[str, str] = {}
 _available: Optional[list[str]] = None
@@ -86,7 +104,7 @@ def resolve_model(kind: str) -> str:
         else:
             for want in prefs:
                 hit = next((m for m in models
-                            if want in m and "vision" not in m and "embedding" not in m), None)
+                            if want in m and usable_model(m)), None)
                 if hit:
                     chosen = hit
                     break
@@ -148,7 +166,7 @@ def candidate_models(kind: str) -> list[str]:
         live = []
     for want in prefs:
         for model in live:
-            if (want in model and "vision" not in model and "embedding" not in model
+            if (want in model and usable_model(model)
                     and model != first and model not in others):
                 others.append(model)
     return [first] + others[:2]
