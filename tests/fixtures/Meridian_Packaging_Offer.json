@@ -1,0 +1,567 @@
+{
+  "vendor": "Meridian Packaging LLP",
+  "document_currency": "INR",
+  "freight_included": false,
+  "payment_terms_days": 30,
+  "lead_time_days": 25.3,
+  "overall_confidence": 0.91,
+  "extraction_notes": "Commercials are written as prose, one sentence per item, with no table anywhere in the document. Most units are given as 'per box/set' without saying which.",
+  "unresolved_references": [
+    "Annexure A — ISO certificate and third-party test reports"
+  ],
+  "lines": [
+    {
+      "vendor_sku": "BX-001",
+      "description": "5-ply corrugated box 400x300x250 mm",
+      "quoted_value": 45.95,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 10000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.92,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 13",
+        "snippet": "For BX-001, 5-ply corrugated box 400x300x250 mm, against your indicated annual quantity of 10,000, our rate is ₹45.95 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-002",
+      "description": "5-ply corrugated box 450x350x300 mm",
+      "quoted_value": 53.22,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 8000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.92,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 14",
+        "snippet": "For BX-002, 5-ply corrugated box 450x350x300 mm, against your indicated annual quantity of 8,000, our rate is ₹53.22 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-003",
+      "description": "5-ply corrugated box 500x400x350 mm",
+      "quoted_value": 60.13,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 7000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.92,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 15",
+        "snippet": "For BX-003, 5-ply corrugated box 500x400x350 mm, against your indicated annual quantity of 7,000, our rate is ₹60.13 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-004",
+      "description": "5-ply corrugated box 600x400x400 mm",
+      "quoted_value": 77.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 6000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.92,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 16",
+        "snippet": "For BX-004, 5-ply corrugated box 600x400x400 mm, against your indicated annual quantity of 6,000, our rate is ₹77.00 per box/set, minimum order 250. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-005",
+      "description": "3-ply corrugated box 300x250x200 mm",
+      "quoted_value": 27.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 12000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.92,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 17",
+        "snippet": "For BX-005, 3-ply corrugated box 300x250x200 mm, against your indicated annual quantity of 12,000, our rate is ₹27.00 per box/set, minimum order 1,000. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-006",
+      "description": "3-ply corrugated box 350x250x200 mm",
+      "quoted_value": 29.77,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 10000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.91,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 18",
+        "snippet": "For BX-006, 3-ply corrugated box 350x250x200 mm, against your indicated annual quantity of 10,000, our rate is ₹29.77 per box/set, minimum order 1,000. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-007",
+      "description": "3-ply corrugated box 400x300x250 mm",
+      "quoted_value": 37.22,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 9000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.91,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 19",
+        "snippet": "For BX-007, 3-ply corrugated box 400x300x250 mm, against your indicated annual quantity of 9,000, our rate is ₹37.22 per box/set, minimum order 1,000. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-008",
+      "description": "3-ply corrugated box 450x300x300 mm",
+      "quoted_value": 44.75,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 7000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.91,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 20",
+        "snippet": "For BX-008, 3-ply corrugated box 450x300x300 mm, against your indicated annual quantity of 7,000, our rate is ₹44.75 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-009",
+      "description": "Printed shipper box 400x300x250 mm",
+      "quoted_value": 62.35,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 5000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.86,
+      "conditions": [
+        "Printing plates are a one-time charge and are quoted separately on approval of artwork."
+      ],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 21",
+        "snippet": "For BX-009, Printed shipper box 400x300x250 mm, against your indicated annual quantity of 5,000, our rate is ₹62.35 per box/set, minimum order 1,000. Delivery approximately 28 days from receipt of order. Printing plates are a one-time charge and are quoted separately on approval of artwork."
+      }
+    },
+    {
+      "vendor_sku": "BX-010",
+      "description": "Printed shipper box 500x400x300 mm",
+      "quoted_value": 75.75,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 4000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.91,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 22",
+        "snippet": "For BX-010, Printed shipper box 500x400x300 mm, against your indicated annual quantity of 4,000, our rate is ₹75.75 per box/set, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-011",
+      "description": "Heavy-duty 7-ply box 600x500x500 mm",
+      "quoted_value": 130.79,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 2500.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.9,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 23",
+        "snippet": "For BX-011, Heavy-duty 7-ply box 600x500x500 mm, against your indicated annual quantity of 2,500, our rate is ₹130.79 per box/set, minimum order 250. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-012",
+      "description": "Heavy-duty 7-ply box 800x600x500 mm",
+      "quoted_value": 165.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 1800.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.9,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 24",
+        "snippet": "For BX-012, Heavy-duty 7-ply box 800x600x500 mm, against your indicated annual quantity of 1,800, our rate is ₹165.00 per box/set, minimum order 250. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-013",
+      "description": "Die-cut box 300x200x150 mm",
+      "quoted_value": 34.5,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 6000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.9,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 25",
+        "snippet": "For BX-013, Die-cut box 300x200x150 mm, against your indicated annual quantity of 6,000, our rate is ₹34.50 per box/set, minimum order 500. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-014",
+      "description": "Die-cut box 400x300x200 mm",
+      "quoted_value": 42.32,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 5000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.9,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 26",
+        "snippet": "For BX-014, Die-cut box 400x300x200 mm, against your indicated annual quantity of 5,000, our rate is ₹42.32 per box/set, minimum order 500. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-015",
+      "description": "Die-cut box 500x350x250 mm",
+      "quoted_value": 57.74,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 4000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.9,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 27",
+        "snippet": "For BX-015, Die-cut box 500x350x250 mm, against your indicated annual quantity of 4,000, our rate is ₹57.74 per box/set, minimum order 500. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-016",
+      "description": "5-ply box, moisture-resistant kraft",
+      "quoted_value": 71.02,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 4500.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.89,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 28",
+        "snippet": "For BX-016, 5-ply box, moisture-resistant kraft, against your indicated annual quantity of 4,500, our rate is ₹71.02 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-017",
+      "description": "5-ply box, burst strength 16 kg/cm2",
+      "quoted_value": 78.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 3500.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.89,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 29",
+        "snippet": "For BX-017, 5-ply box, burst strength 16 kg/cm2, against your indicated annual quantity of 3,500, our rate is ₹78.00 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-018",
+      "description": "5-ply box, burst strength 18 kg/cm2",
+      "quoted_value": 89.33,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 3000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.89,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 30",
+        "snippet": "For BX-018, 5-ply box, burst strength 18 kg/cm2, against your indicated annual quantity of 3,000, our rate is ₹89.33 per box/set, minimum order 500. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-019",
+      "description": "3-ply box, burst strength 12 kg/cm2",
+      "quoted_value": 31.27,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 8000.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.89,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 31",
+        "snippet": "For BX-019, 3-ply box, burst strength 12 kg/cm2, against your indicated annual quantity of 8,000, our rate is ₹31.27 per box/set, minimum order 1,000. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-020",
+      "description": "3-ply box, burst strength 14 kg/cm2",
+      "quoted_value": 39.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 6500.0,
+      "lead_time_days": 24.0,
+      "confidence": 0.89,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 32",
+        "snippet": "For BX-020, 3-ply box, burst strength 14 kg/cm2, against your indicated annual quantity of 6,500, our rate is ₹39.00 per box/set, minimum order 1,000. Delivery approximately 24 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-021",
+      "description": "Partition set, 12-cell",
+      "quoted_value": 20.31,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 5000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.88,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 33",
+        "snippet": "For BX-021, Partition set, 12-cell, against your indicated annual quantity of 5,000, our rate is ₹20.31 per box/set, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-022",
+      "description": "Partition set, 24-cell",
+      "quoted_value": 26.0,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 3500.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.88,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 34",
+        "snippet": "For BX-022, Partition set, 24-cell, against your indicated annual quantity of 3,500, our rate is ₹26.00 per box/set, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-023",
+      "description": "Corrugated sheet 1000x800 mm",
+      "quoted_value": 61.52,
+      "currency": "INR",
+      "unit_text": "per sheet",
+      "quantity": 9000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.88,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 35",
+        "snippet": "For BX-023, Corrugated sheet 1000x800 mm, against your indicated annual quantity of 9,000, our rate is ₹61.52 per sheet, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-024",
+      "description": "Corrugated sheet 1200x1000 mm",
+      "quoted_value": 85.02,
+      "currency": "INR",
+      "unit_text": "per sheet",
+      "quantity": 7000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.88,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 36",
+        "snippet": "For BX-024, Corrugated sheet 1200x1000 mm, against your indicated annual quantity of 7,000, our rate is ₹85.02 per sheet, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-025",
+      "description": "5-ply roll, 1200 mm width",
+      "quoted_value": 391.57,
+      "currency": "INR",
+      "unit_text": "per roll",
+      "quantity": 1200.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.88,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 37",
+        "snippet": "For BX-025, 5-ply roll, 1200 mm width, against your indicated annual quantity of 1,200, our rate is ₹391.57 per roll, minimum order 50. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-026",
+      "description": "Edge protector 50x50x5 mm",
+      "quoted_value": 13.04,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 15000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.87,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 38",
+        "snippet": "For BX-026, Edge protector 50x50x5 mm, against your indicated annual quantity of 15,000, our rate is ₹13.04 per box/set, minimum order 2,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-027",
+      "description": "Corner protector 75x75x5 mm",
+      "quoted_value": 18.1,
+      "currency": "INR",
+      "unit_text": "per box/set",
+      "quantity": 10000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.87,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 39",
+        "snippet": "For BX-027, Corner protector 75x75x5 mm, against your indicated annual quantity of 10,000, our rate is ₹18.10 per box/set, minimum order 2,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-028",
+      "description": "Kraft paper tape 48 mm x 50 m",
+      "quoted_value": 38.76,
+      "currency": "INR",
+      "unit_text": "per roll",
+      "quantity": 20000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.87,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 40",
+        "snippet": "For BX-028, Kraft paper tape 48 mm x 50 m, against your indicated annual quantity of 20,000, our rate is ₹38.76 per roll, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-029",
+      "description": "Stretch film 500 mm x 300 m",
+      "quoted_value": 190.0,
+      "currency": "INR",
+      "unit_text": "per roll",
+      "quantity": 6000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.82,
+      "conditions": [
+        "This is a traded item and the rate moves with the imported film market; we will reconfirm at the time of order."
+      ],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 41",
+        "snippet": "For BX-029, Stretch film 500 mm x 300 m, against your indicated annual quantity of 6,000, our rate is ₹190.00 per roll, minimum order 200. Delivery approximately 28 days from receipt of order. This is a traded item and the rate moves with the imported film market; we will reconfirm at the time of order."
+      }
+    },
+    {
+      "vendor_sku": "BX-030",
+      "description": "Pallet top sheet 1200x1000 mm",
+      "quoted_value": 27.97,
+      "currency": "INR",
+      "unit_text": "per sheet",
+      "quantity": 5000.0,
+      "lead_time_days": 28.0,
+      "confidence": 0.87,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "paragraph 42",
+        "snippet": "For BX-030, Pallet top sheet 1200x1000 mm, against your indicated annual quantity of 5,000, our rate is ₹27.97 per sheet, minimum order 1,000. Delivery approximately 28 days from receipt of order."
+      }
+    }
+  ],
+  "questionnaire": [
+    {
+      "question": "ISO 9001 certified",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": "certificate valid to March 2028",
+      "note": null
+    },
+    {
+      "question": "Monthly production capacity above 50,000 units",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "On-time delivery above 95%",
+      "answer": "No",
+      "stated_value": "91.8%",
+      "evidence": "Annexure A — third-party reports attached",
+      "note": "We have added a second shift in the flexo line and expect to be above 95% from Q3."
+    },
+    {
+      "question": "Quality rejection rate below 1%",
+      "answer": "Yes",
+      "stated_value": "0.7%",
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Can meet a 30-day delivery SLA",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    }
+  ],
+  "terms": [
+    {
+      "kind": "freight",
+      "text": "Freight is charged separately at actuals and is not included in the rates above.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "tax",
+      "text": "GST at 18% is extra.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "validity",
+      "text": "Prices hold for 30 days from the date of this quotation.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "payment",
+      "text": "Payment terms requested are 30 days from invoice.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "discount",
+      "text": "A volume rebate of 1.5% is applicable where cumulative purchases in any quarter exceed ₹50 lakh, settled by credit note at quarter end.",
+      "trigger": "cumulative quarterly purchases exceed ₹50 lakh",
+      "value": 1.5
+    }
+  ]
+}

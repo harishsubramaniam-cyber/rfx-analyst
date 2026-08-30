@@ -1,0 +1,540 @@
+{
+  "vendor": "Shakti Packaging Industries Pvt Ltd",
+  "document_currency": "INR",
+  "freight_included": null,
+  "payment_terms_days": 30,
+  "lead_time_days": 19.5,
+  "overall_confidence": 0.96,
+  "extraction_notes": "Supplier's own quotation format: their item codes in one column and the buyer's reference in another, written inconsistently. Freight is included only for despatches above 2 tonnes.",
+  "unresolved_references": [
+    "Shakti_ISO9001_certificate.pdf (ISO certificate stated as enclosed)",
+    "'Slab Rates' volume pricing, which depends on confirmed annual volumes"
+  ],
+  "lines": [
+    {
+      "vendor_sku": "BX-001",
+      "description": "5-ply corrugated box 400x300x250 mm",
+      "quoted_value": 41.81,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 13",
+        "snippet": "1 | BX-001 | 5-ply corrugated box 400x300x250 mm | 48191010 | Nos | 500 | 41.81 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-002",
+      "description": "5-ply corrugated box 450x350x300 mm",
+      "quoted_value": 48.88,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 14",
+        "snippet": "2 | BX-002 | 5-ply corrugated box 450x350x300 mm | 48191010 | Nos | 500 | 48.88 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-003",
+      "description": "5-ply corrugated box 500x400x350 mm",
+      "quoted_value": 54.7,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 15",
+        "snippet": "3 | BX-003 | 5-ply corrugated box 500x400x350 mm | 48191010 | Nos | 500 | 54.70 |"
+      }
+    },
+    {
+      "vendor_sku": "BX 004",
+      "description": "5-ply corrugated box 600x400x400 mm",
+      "quoted_value": 71.94,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "Rate for kraft 180 GSM outer; 200 GSM +₹2.10",
+      "source": {
+        "locator": "sheet 'Quotation' row 16",
+        "snippet": "4 | BX 004 | 5-ply corrugated box 600x400x400 mm | 48191010 | Nos | 250 | 71.94 | Rate for kraft 180 GSM outer; 200 GSM +₹2.10"
+      }
+    },
+    {
+      "vendor_sku": "BX-006",
+      "description": "3-ply corrugated box 350x250x200 mm",
+      "quoted_value": 28.0,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 17",
+        "snippet": "5 | BX-006 | 3-ply corrugated box 350x250x200 mm | 48191010 | Nos | 1,000 | 28.00 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-007",
+      "description": "3-ply corrugated box 400x300x250 mm",
+      "quoted_value": 35.75,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 18",
+        "snippet": "6 | BX-007 | 3-ply corrugated box 400x300x250 mm | 48191010 | Nos | 1,000 | 35.75 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-008",
+      "description": "3-ply corrugated box 450x300x300 mm",
+      "quoted_value": 41.7,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 19",
+        "snippet": "7 | BX-008 | 3-ply corrugated box 450x300x300 mm | 48191010 | Nos | 500 | 41.70 |"
+      }
+    },
+    {
+      "vendor_sku": "BX 009",
+      "description": "Printed shipper box 400x300x250 mm",
+      "quoted_value": 64.99,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 20",
+        "snippet": "8 | BX 009 | Printed shipper box 400x300x250 mm | 48191010 | Nos | 1,000 | 64.99 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-010",
+      "description": "Printed shipper box 500x400x300 mm",
+      "quoted_value": 77.55,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 21",
+        "snippet": "9 | BX-010 | Printed shipper box 500x400x300 mm | 48191010 | Nos | 1,000 | 77.55 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-011",
+      "description": "Heavy-duty 7-ply box 600x500x500 mm",
+      "quoted_value": 144.88,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.96,
+      "conditions": [],
+      "notes": "Sub-contracted; lead time 30 days",
+      "source": {
+        "locator": "sheet 'Quotation' row 22",
+        "snippet": "10 | BX-011 | Heavy-duty 7-ply box 600x500x500 mm | 48191010 | Nos | 250 | 144.88 | Sub-contracted; lead time 30 days"
+      }
+    },
+    {
+      "vendor_sku": "BX-012",
+      "description": "Heavy-duty 7-ply box 800x600x500 mm",
+      "quoted_value": 188.25,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 23",
+        "snippet": "11 | BX-012 | Heavy-duty 7-ply box 800x600x500 mm | 48191010 | Nos | 250 | 188.25 |"
+      }
+    },
+    {
+      "vendor_sku": "BX 013",
+      "description": "Die-cut box 300x200x150 mm",
+      "quoted_value": 33.7,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 24",
+        "snippet": "12 | BX 013 | Die-cut box 300x200x150 mm | 48192090 | Nos | 500 | 33.70 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-014",
+      "description": "Die-cut box 400x300x200 mm",
+      "quoted_value": 41.91,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 25",
+        "snippet": "13 | BX-014 | Die-cut box 400x300x200 mm | 48192090 | Nos | 500 | 41.91 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-015",
+      "description": "Die-cut box 500x350x250 mm",
+      "quoted_value": 55.86,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 26",
+        "snippet": "14 | BX-015 | Die-cut box 500x350x250 mm | 48192090 | Nos | 500 | 55.86 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-016",
+      "description": "5-ply box, moisture-resistant kraft",
+      "quoted_value": 69.75,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.96,
+      "conditions": [],
+      "notes": "Poly-coated liner, moisture barrier as per spec",
+      "source": {
+        "locator": "sheet 'Quotation' row 27",
+        "snippet": "15 | BX-016 | 5-ply box, moisture-resistant kraft | 48191010 | Nos | 500 | 69.75 | Poly-coated liner, moisture barrier as per spec"
+      }
+    },
+    {
+      "vendor_sku": "BX 017",
+      "description": "5-ply box, burst strength 16 kg/cm2",
+      "quoted_value": 75.25,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 28",
+        "snippet": "16 | BX 017 | 5-ply box, burst strength 16 kg/cm2 | 48191010 | Nos | 500 | 75.25 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-018",
+      "description": "5-ply box, burst strength 18 kg/cm2",
+      "quoted_value": 88.75,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 29",
+        "snippet": "17 | BX-018 | 5-ply box, burst strength 18 kg/cm2 | 48191010 | Nos | 500 | 88.75 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-020",
+      "description": "3-ply box, burst strength 14 kg/cm2",
+      "quoted_value": 37.95,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 30",
+        "snippet": "18 | BX-020 | 3-ply box, burst strength 14 kg/cm2 | 48191010 | Nos | 1,000 | 37.95 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-021",
+      "description": "Partition set, 12-cell",
+      "quoted_value": 17.93,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 31",
+        "snippet": "19 | BX-021 | Partition set, 12-cell | 48195000 | Nos | 1,000 | 17.93 |"
+      }
+    },
+    {
+      "vendor_sku": "BX 022",
+      "description": "Partition set, 24-cell",
+      "quoted_value": 24.33,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 32",
+        "snippet": "20 | BX 022 | Partition set, 24-cell | 48195000 | Nos | 1,000 | 24.33 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-023",
+      "description": "Corrugated sheet 1000x800 mm",
+      "quoted_value": 66.25,
+      "currency": "INR",
+      "unit_text": "Sheet",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 33",
+        "snippet": "21 | BX-023 | Corrugated sheet 1000x800 mm | 48081000 | Sheet | 1,000 | 66.25 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-024",
+      "description": "Corrugated sheet 1200x1000 mm",
+      "quoted_value": 88.07,
+      "currency": "INR",
+      "unit_text": "Sheet",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 34",
+        "snippet": "22 | BX-024 | Corrugated sheet 1200x1000 mm | 48081000 | Sheet | 1,000 | 88.07 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-025",
+      "description": "5-ply roll, 1200 mm width",
+      "quoted_value": 458.99,
+      "currency": "INR",
+      "unit_text": "Roll",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.96,
+      "conditions": [],
+      "notes": "Mill roll — supplied in 50 kg reels",
+      "source": {
+        "locator": "sheet 'Quotation' row 35",
+        "snippet": "23 | BX-025 | 5-ply roll, 1200 mm width | 48081000 | Roll | 50 | 458.99 | Mill roll — supplied in 50 kg reels"
+      }
+    },
+    {
+      "vendor_sku": "BX 026",
+      "description": "Edge protector 50x50x5 mm",
+      "quoted_value": 12.13,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 36",
+        "snippet": "24 | BX 026 | Edge protector 50x50x5 mm | 48239019 | Nos | 2,000 | 12.13 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-027",
+      "description": "Corner protector 75x75x5 mm",
+      "quoted_value": 17.48,
+      "currency": "INR",
+      "unit_text": "Nos",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 37",
+        "snippet": "25 | BX-027 | Corner protector 75x75x5 mm | 48239019 | Nos | 2,000 | 17.48 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-028",
+      "description": "Kraft paper tape 48 mm x 50 m",
+      "quoted_value": 38.99,
+      "currency": "INR",
+      "unit_text": "Roll",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.98,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 38",
+        "snippet": "26 | BX-028 | Kraft paper tape 48 mm x 50 m | 48234000 | Roll | 1,000 | 38.99 |"
+      }
+    },
+    {
+      "vendor_sku": "BX-029",
+      "description": "Stretch film 500 mm x 300 m",
+      "quoted_value": 190.83,
+      "currency": "INR",
+      "unit_text": "Roll",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.96,
+      "conditions": [
+        "Imported film, subject to FX at time of despatch"
+      ],
+      "notes": "Imported film, subject to FX at time of despatch",
+      "source": {
+        "locator": "sheet 'Quotation' row 39",
+        "snippet": "27 | BX-029 | Stretch film 500 mm x 300 m | 48234000 | Roll | 200 | 190.83 | Imported film, subject to FX at time of despatch"
+      }
+    },
+    {
+      "vendor_sku": "BX 030",
+      "description": "Pallet top sheet 1200x1000 mm",
+      "quoted_value": 29.75,
+      "currency": "INR",
+      "unit_text": "Sheet",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.95,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "sheet 'Quotation' row 40",
+        "snippet": "28 | BX 030 | Pallet top sheet 1200x1000 mm | 48081000 | Sheet | 1,000 | 29.75 |"
+      }
+    }
+  ],
+  "questionnaire": [
+    {
+      "question": "ISO 9001 certification held?",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": "valid to Nov 2027, copy enclosed (Shakti_ISO9001_certificate.pdf)",
+      "note": null
+    },
+    {
+      "question": "Monthly production capacity above 50,000 units?",
+      "answer": "Yes",
+      "stated_value": "approx. 90,000 units/month",
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "On-time delivery performance above 95%?",
+      "answer": "Yes",
+      "stated_value": "96.4% for FY 2025-26",
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Quality rejection rate below 1%?",
+      "answer": "Yes",
+      "stated_value": "0.6% average",
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Able to commit to a 30-day delivery SLA?",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    }
+  ],
+  "terms": [
+    {
+      "kind": "freight",
+      "text": "Rates are Ex-Works Bengaluru. Freight to your Bommasandra warehouse is included for despatches above 2 tonnes; below that, freight at actuals.",
+      "trigger": "despatch above 2 tonnes",
+      "value": null
+    },
+    {
+      "kind": "tax",
+      "text": "GST @ 18% extra as applicable.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "payment",
+      "text": "Payment: 30 days from date of invoice.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "validity",
+      "text": "Validity 45 days from date of quotation.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "discount",
+      "text": "Slab rates: 2.5% lower for 5,001–15,000 units and 4.5% lower above 15,000 units, per item, on confirmed annual volumes.",
+      "trigger": "confirmed annual offtake per item",
+      "value": 4.5
+    },
+    {
+      "kind": "other",
+      "text": "Rates are based on kraft paper at ₹42/kg. Variation beyond ±5% will be passed on with 30 days' notice.",
+      "trigger": null,
+      "value": null
+    }
+  ]
+}

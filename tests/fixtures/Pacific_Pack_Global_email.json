@@ -1,0 +1,537 @@
+{
+  "vendor": "Pacific Pack Global Pvt Ltd",
+  "document_currency": "USD",
+  "freight_included": false,
+  "payment_terms_days": 60,
+  "lead_time_days": 32.5,
+  "overall_confidence": 0.85,
+  "extraction_notes": "Free-text email from an export-oriented unit. Everything is quoted in US dollars, FOB Chennai, with conversion left to the buyer's bank rate on invoice date. Units vary line by line and several are stated in bulk.",
+  "unresolved_references": [
+    "our standard 2025 rate card (referenced for every item not listed)",
+    "2025 contract rates (referenced on BX-017)",
+    "one-time plate charge on BX-009, to be advised"
+  ],
+  "lines": [
+    {
+      "vendor_sku": "BX-001",
+      "description": null,
+      "quoted_value": 1.25,
+      "currency": "USD",
+      "unit_text": "per kg",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 9",
+        "snippet": "BX-001 - USD 1.25 per kg (we sell this grade by weight)"
+      }
+    },
+    {
+      "vendor_sku": "BX-002",
+      "description": null,
+      "quoted_value": 0.64,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 10",
+        "snippet": "BX-002 - USD 0.64 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-003",
+      "description": null,
+      "quoted_value": 0.72,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 11",
+        "snippet": "BX-003 - USD 0.72 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-004",
+      "description": null,
+      "quoted_value": 0.93,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 12",
+        "snippet": "BX-004 - USD 0.93 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-005",
+      "description": null,
+      "quoted_value": 306.0,
+      "currency": "USD",
+      "unit_text": "per 1000 pcs",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 13",
+        "snippet": "BX-005 - USD 306 per 1000 pcs"
+      }
+    },
+    {
+      "vendor_sku": "BX-006",
+      "description": null,
+      "quoted_value": 0.37,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 14",
+        "snippet": "BX-006 - USD 0.37 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-007",
+      "description": null,
+      "quoted_value": 0.45,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 15",
+        "snippet": "BX-007 - USD 0.45 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-008",
+      "description": null,
+      "quoted_value": 0.54,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 16",
+        "snippet": "BX-008 - USD 0.54 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-009",
+      "description": null,
+      "quoted_value": 0.7,
+      "currency": "USD",
+      "unit_text": "each",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.88,
+      "conditions": [
+        "plus one-time plate charge to be advised"
+      ],
+      "notes": "",
+      "source": {
+        "locator": "email line 17",
+        "snippet": "BX-009 - USD 0.70 each, plus one-time plate charge to be advised"
+      }
+    },
+    {
+      "vendor_sku": "BX-010",
+      "description": null,
+      "quoted_value": 0.85,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 18",
+        "snippet": "BX-010 - USD 0.85 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-011",
+      "description": null,
+      "quoted_value": 1.46,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 19",
+        "snippet": "BX-011 - USD 1.46 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-013",
+      "description": null,
+      "quoted_value": 0.4,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 20",
+        "snippet": "BX-013 - USD 0.40 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-014",
+      "description": null,
+      "quoted_value": 0.5,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 21",
+        "snippet": "BX-014 - USD 0.50 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-015",
+      "description": null,
+      "quoted_value": 0.65,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 22",
+        "snippet": "BX-015 - USD 0.65 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-016",
+      "description": null,
+      "quoted_value": 0.78,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 23",
+        "snippet": "BX-016 - USD 0.78 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-017",
+      "description": null,
+      "quoted_value": 0.85,
+      "currency": "USD",
+      "unit_text": null,
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.84,
+      "conditions": [
+        "balance grades same as our 2025 contract rates"
+      ],
+      "notes": "",
+      "source": {
+        "locator": "email line 24",
+        "snippet": "BX-017 - USD 0.85, balance grades same as our 2025 contract rates"
+      }
+    },
+    {
+      "vendor_sku": "BX-018",
+      "description": null,
+      "quoted_value": 0.98,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 25",
+        "snippet": "BX-018 - USD 0.98 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-019",
+      "description": null,
+      "quoted_value": 0.35,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 26",
+        "snippet": "BX-019 - USD 0.35 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-020",
+      "description": null,
+      "quoted_value": 0.43,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 27",
+        "snippet": "BX-020 - USD 0.43 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-021",
+      "description": null,
+      "quoted_value": 0.24,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 28",
+        "snippet": "BX-021 - USD 0.24 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-022",
+      "description": null,
+      "quoted_value": 0.32,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 29",
+        "snippet": "BX-022 - USD 0.32 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-023",
+      "description": null,
+      "quoted_value": 0.72,
+      "currency": "USD",
+      "unit_text": "per sheet",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 30",
+        "snippet": "BX-023 - USD 0.72 per sheet"
+      }
+    },
+    {
+      "vendor_sku": "BX-025",
+      "description": null,
+      "quoted_value": 4.87,
+      "currency": "USD",
+      "unit_text": "per roll",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 31",
+        "snippet": "BX-025 - USD 4.87 per roll"
+      }
+    },
+    {
+      "vendor_sku": "BX-026",
+      "description": null,
+      "quoted_value": 0.16,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 32",
+        "snippet": "BX-026 - USD 0.16 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-027",
+      "description": null,
+      "quoted_value": 0.22,
+      "currency": "USD",
+      "unit_text": "per box",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 33",
+        "snippet": "BX-027 - USD 0.22 per box"
+      }
+    },
+    {
+      "vendor_sku": "BX-028",
+      "description": null,
+      "quoted_value": 0.42,
+      "currency": "USD",
+      "unit_text": "per roll",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 34",
+        "snippet": "BX-028 - USD 0.42 per roll"
+      }
+    },
+    {
+      "vendor_sku": "BX-029",
+      "description": null,
+      "quoted_value": 206.0,
+      "currency": "USD",
+      "unit_text": "per 100 rolls",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 35",
+        "snippet": "BX-029 - USD 206 per 100 rolls"
+      }
+    },
+    {
+      "vendor_sku": "BX-030",
+      "description": null,
+      "quoted_value": 0.34,
+      "currency": "USD",
+      "unit_text": "per sheet",
+      "quantity": null,
+      "lead_time_days": null,
+      "confidence": 0.93,
+      "conditions": [],
+      "notes": "",
+      "source": {
+        "locator": "email line 36",
+        "snippet": "BX-030 - USD 0.34 per sheet"
+      }
+    }
+  ],
+  "questionnaire": [
+    {
+      "question": "ISO 9001 certified",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Monthly production capacity > 50,000 units",
+      "answer": "No",
+      "stated_value": "about 35,000 units/month",
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "On-time delivery > 95%",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Quality rejection rate < 1%",
+      "answer": "Yes",
+      "stated_value": null,
+      "evidence": null,
+      "note": null
+    },
+    {
+      "question": "Can meet 30-day delivery SLA",
+      "answer": "No",
+      "stated_value": "30-35 days",
+      "evidence": null,
+      "note": "please see lead time above"
+    }
+  ],
+  "terms": [
+    {
+      "kind": "other",
+      "text": "We invoice in USD as we are an export-oriented unit; conversion at your banker's TT rate on invoice date.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "freight",
+      "text": "Prices are FOB Chennai.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "tax",
+      "text": "GST/IGST as applicable extra.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "payment",
+      "text": "Payment 60 days from BL date.",
+      "trigger": null,
+      "value": null
+    },
+    {
+      "kind": "other",
+      "text": "Lead time 30-35 days ex-Chennai. MOQ 1000 pcs per line item, 500 for the 7-ply.",
+      "trigger": null,
+      "value": null
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "functional_area": "Packaging",
+  "note": "The approved vendor list for this functional area. Ratings are the buyer's own scorecard, not a supplier's self-report: each is the average of four scores kept from previous business, so a buyer can see what a headline number is made of and disagree with a part of it rather than the whole.",
+  "score_names": {
+    "quality": "Quality — rejections, complaints, consistency of the last year's deliveries.",
+    "delivery": "Delivery — how often they hit the promised date, and how they behave when they cannot.",
+    "commercial": "Commercial — competitiveness at last award, and whether prices held as agreed.",
+    "responsiveness": "Responsiveness — how quickly they quote, and how completely."
+  },
+  "categories": [
+    {
+      "key": "corrugated_boxes",
+      "name": "Corrugated boxes and cartons",
+      "covers": "3-ply, 5-ply and 7-ply shipping boxes, printed shippers, die-cut cartons.",
+      "vendors": [
+        {
+          "name": "Shakti Packaging Industries Pvt Ltd",
+          "email": "sales@shaktipack.co.in",
+          "location": "Bengaluru",
+          "incumbent": true,
+          "scores": {
+            "quality": 9.0,
+            "delivery": 8.5,
+            "commercial": 9.0,
+            "responsiveness": 8.5
+          },
+          "note": "Incumbent on the 5-ply range. Slab rates on annual offtake."
+        },
+        {
+          "name": "Sri Balaji Corrugators Pvt Ltd",
+          "email": "estimation@sribalajicorrugators.in",
+          "location": "Hosur",
+          "scores": {
+            "quality": 8.5,
+            "delivery": 8.0,
+            "commercial": 8.0,
+            "responsiveness": 7.5
+          },
+          "note": "Strong on heavy-duty grades. Includes delivery in their rates."
+        },
+        {
+          "name": "Meridian Packaging LLP",
+          "email": "accounts@meridianpack.in",
+          "location": "Anekal, Bengaluru",
+          "scores": {
+            "quality": 8.0,
+            "delivery": 8.5,
+            "commercial": 7.0,
+            "responsiveness": 9.0
+          },
+          "note": "Quotes everything, fastest to respond. Discloses its own OTD misses."
+        },
+        {
+          "name": "Northstar Packaging",
+          "email": "northstar.sales@example.in",
+          "location": "Peenya, Bengaluru",
+          "scores": {
+            "quality": 6.5,
+            "delivery": 6.0,
+            "commercial": 8.5,
+            "responsiveness": 5.5
+          },
+          "note": "Cheapest on 3-ply, but quotes on a photographed rate card and has an ISO audit outstanding."
+        }
+      ]
+    },
+    {
+      "key": "protective",
+      "name": "Protective and void fill",
+      "covers": "Edge protectors, corner boards, partitions, moulded inserts, air pillows.",
+      "vendors": [
+        {
+          "name": "Meridian Packaging LLP",
+          "email": "accounts@meridianpack.in",
+          "location": "Anekal, Bengaluru",
+          "scores": {
+            "quality": 8.0,
+            "delivery": 8.5,
+            "commercial": 7.0,
+            "responsiveness": 9.0
+          },
+          "note": "Also supplies partitions and edge protectors off the same line."
+        },
+        {
+          "name": "Cushionwrap Systems Pvt Ltd",
+          "email": "sales@cushionwrap.example.in",
+          "location": "Hosur",
+          "scores": {
+            "quality": 8.5,
+            "delivery": 7.5,
+            "commercial": 7.5,
+            "responsiveness": 8.0
+          },
+          "note": "Moulded inserts and foam. Tooling charged separately — ask for it in writing."
+        },
+        {
+          "name": "Guardline Protective Packaging",
+          "email": "enquiry@guardline.example.in",
+          "location": "Chennai",
+          "scores": {
+            "quality": 7.5,
+            "delivery": 7.0,
+            "commercial": 8.0,
+            "responsiveness": 7.0
+          },
+          "note": "Competitive on corner boards at volume. Longer lead time from Chennai."
+        }
+      ]
+    },
+    {
+      "key": "paper_rolls",
+      "name": "Kraft paper, rolls and sheets",
+      "covers": "Kraft reels, corrugated sheet board, layer pads, interleaving paper.",
+      "vendors": [
+        {
+          "name": "Shakti Packaging Industries Pvt Ltd",
+          "email": "sales@shaktipack.co.in",
+          "location": "Bengaluru",
+          "incumbent": true,
+          "scores": {
+            "quality": 9.0,
+            "delivery": 8.5,
+            "commercial": 9.0,
+            "responsiveness": 8.5
+          },
+          "note": "Supplies mill rolls in 50 kg reels alongside the box range."
+        },
+        {
+          "name": "Deccan Kraft Mills Ltd",
+          "email": "orders@deccankraft.example.in",
+          "location": "Nanjangud",
+          "scores": {
+            "quality": 8.0,
+            "delivery": 7.0,
+            "commercial": 8.5,
+            "responsiveness": 6.5
+          },
+          "note": "Mill direct, so keenest on paper price — but quotes per kg, which needs a stated GSM and reel width to compare."
+        },
+        {
+          "name": "Sri Balaji Corrugators Pvt Ltd",
+          "email": "estimation@sribalajicorrugators.in",
+          "location": "Hosur",
+          "scores": {
+            "quality": 8.5,
+            "delivery": 8.0,
+            "commercial": 8.0,
+            "responsiveness": 7.5
+          },
+          "note": "Sheet board in standard sizes; converts its own reels."
+        }
+      ]
+    },
+    {
+      "key": "tapes_labels",
+      "name": "Tapes, labels and consumables",
+      "covers": "BOPP and paper tape, strapping, stretch film, shipping labels, ribbons.",
+      "vendors": [
+        {
+          "name": "Pacific Pack Global Pvt Ltd",
+          "email": "rajesh.p@pacificpackglobal.com",
+          "location": "Sriperumbudur",
+          "scores": {
+            "quality": 8.0,
+            "delivery": 6.5,
+            "commercial": 8.5,
+            "responsiveness": 7.0
+          },
+          "note": "Export-oriented unit; quotes FOB in USD, so every price needs converting and the freight is on top."
+        },
+        {
+          "name": "Trueline Labels and Tapes",
+          "email": "sales@truelinelabels.example.in",
+          "location": "Bengaluru",
+          "scores": {
+            "quality": 8.5,
+            "delivery": 9.0,
+            "commercial": 7.5,
+            "responsiveness": 8.5
+          },
+          "note": "Local, quick, reliable on repeat consumables. Small MOQs."
+        },
+        {
+          "name": "Vector Film and Strapping Co",
+          "email": "enquiry@vectorfilm.example.in",
+          "location": "Pune",
+          "scores": {
+            "quality": 7.5,
+            "delivery": 7.5,
+            "commercial": 8.5,
+            "responsiveness": 7.0
+          },
+          "note": "Stretch film and strapping at volume; rates move with the resin market, so ask what the quote is pegged to."
+        }
+      ]
+    }
+  ]
+}

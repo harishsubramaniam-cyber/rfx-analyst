@@ -1,0 +1,330 @@
+{
+  "title": "Corrugated packaging — annual rate contract FY 2026-27",
+  "reference": "RFX/CORR/2026-0830",
+  "scope": "Annual requirement of corrugated shipping boxes, sheets, rolls and protective packaging for our Bengaluru operation.",
+  "currency": "INR",
+  "delivery_location": "Bommasandra Industrial Area, Bengaluru 560099",
+  "terms": {
+    "payment": "45 days from date of invoice.",
+    "delivery": "Delivered to our Bommasandra warehouse. If your price is ex-works, say so and quote the freight separately.",
+    "validity": "Rates to remain firm for 90 days from the date of your quotation.",
+    "tax": "Quote rates exclusive of GST. State the HSN code against each line."
+  },
+  "notes": [
+    "Quote every charge that will appear on your invoice. Packaging, palletisation, printing plates, tooling, artwork and any handling or documentation charge must be listed as a separate line with an amount — not as a footnote saying 'at actuals' or 'to be advised'. A charge with no number against it cannot be compared, and will be treated as unquantified when we evaluate.",
+    "If a rate depends on anything — a volume, an exchange rate, a paper price, confirmation at the time of order — state the condition and the rate that holds today. We will not assume the best case.",
+    "Where you cannot supply an item, write 'not quoted' against it. A blank line reads as an oversight and we will come back to you."
+  ],
+  "questions": [
+    {
+      "question": "ISO 9001 certification held?",
+      "requirement": "Scored",
+      "weight": 1
+    },
+    {
+      "question": "Monthly production capacity above 50,000 units?",
+      "threshold": 50000,
+      "direction": "higher_better",
+      "unit": " units/month",
+      "requirement": "Scored",
+      "weight": 1
+    },
+    {
+      "question": "On-time delivery performance above 95%?",
+      "threshold": 95,
+      "direction": "higher_better",
+      "unit": "%",
+      "requirement": "Scored",
+      "weight": 1
+    },
+    {
+      "question": "Quality rejection rate below 1%?",
+      "threshold": 1,
+      "direction": "lower_better",
+      "unit": "%",
+      "requirement": "Scored",
+      "weight": 1
+    },
+    {
+      "question": "Can you meet a 30-day delivery SLA?",
+      "threshold": 30,
+      "direction": "lower_better",
+      "unit": " days",
+      "requirement": "Scored",
+      "weight": 1
+    }
+  ],
+  "lines": [
+    {
+      "sku": "BX-001",
+      "description": "5-ply corrugated box 400x300x250 mm",
+      "quantity": 10000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-002",
+      "description": "5-ply corrugated box 450x350x300 mm",
+      "quantity": 8000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-003",
+      "description": "5-ply corrugated box 500x400x350 mm",
+      "quantity": 7000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-004",
+      "description": "5-ply corrugated box 600x400x400 mm",
+      "quantity": 6000,
+      "unit": "per box",
+      "moq": 250
+    },
+    {
+      "sku": "BX-005",
+      "description": "3-ply corrugated box 300x250x200 mm",
+      "quantity": 12000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-006",
+      "description": "3-ply corrugated box 350x250x200 mm",
+      "quantity": 10000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-007",
+      "description": "3-ply corrugated box 400x300x250 mm",
+      "quantity": 9000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-008",
+      "description": "3-ply corrugated box 450x300x300 mm",
+      "quantity": 7000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-009",
+      "description": "Printed shipper box 400x300x250 mm",
+      "quantity": 5000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-010",
+      "description": "Printed shipper box 500x400x300 mm",
+      "quantity": 4000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-011",
+      "description": "Heavy-duty 7-ply box 600x500x500 mm",
+      "quantity": 2500,
+      "unit": "per box",
+      "moq": 250
+    },
+    {
+      "sku": "BX-012",
+      "description": "Heavy-duty 7-ply box 800x600x500 mm",
+      "quantity": 1800,
+      "unit": "per box",
+      "moq": 250
+    },
+    {
+      "sku": "BX-013",
+      "description": "Die-cut box 300x200x150 mm",
+      "quantity": 6000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-014",
+      "description": "Die-cut box 400x300x200 mm",
+      "quantity": 5000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-015",
+      "description": "Die-cut box 500x350x250 mm",
+      "quantity": 4000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-016",
+      "description": "5-ply box, moisture-resistant kraft",
+      "quantity": 4500,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-017",
+      "description": "5-ply box, burst strength 16 kg/cm2",
+      "quantity": 3500,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-018",
+      "description": "5-ply box, burst strength 18 kg/cm2",
+      "quantity": 3000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-019",
+      "description": "3-ply box, burst strength 12 kg/cm2",
+      "quantity": 8000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-020",
+      "description": "3-ply box, burst strength 14 kg/cm2",
+      "quantity": 6500,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-021",
+      "description": "Partition set, 12-cell",
+      "quantity": 5000,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-022",
+      "description": "Partition set, 24-cell",
+      "quantity": 3500,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-023",
+      "description": "Corrugated sheet 1000x800 mm",
+      "quantity": 9000,
+      "unit": "per sheet",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-024",
+      "description": "Corrugated sheet 1200x1000 mm",
+      "quantity": 7000,
+      "unit": "per sheet",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-025",
+      "description": "5-ply roll, 1200 mm width",
+      "quantity": 1200,
+      "unit": "per roll",
+      "moq": 50
+    },
+    {
+      "sku": "BX-026",
+      "description": "Edge protector 50x50x5 mm",
+      "quantity": 15000,
+      "unit": "per box",
+      "moq": 2000
+    },
+    {
+      "sku": "BX-027",
+      "description": "Corner protector 75x75x5 mm",
+      "quantity": 10000,
+      "unit": "per box",
+      "moq": 2000
+    },
+    {
+      "sku": "BX-028",
+      "description": "Kraft paper tape 48 mm x 50 m",
+      "quantity": 20000,
+      "unit": "per roll",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-029",
+      "description": "Stretch film 500 mm x 300 m",
+      "quantity": 6000,
+      "unit": "per roll",
+      "moq": 200
+    },
+    {
+      "sku": "BX-030",
+      "description": "Pallet top sheet 1200x1000 mm",
+      "quantity": 5000,
+      "unit": "per sheet",
+      "moq": 1000
+    }
+  ],
+  "vendor_category": "Corrugated boxes and cartons",
+  "window_days": 12,
+  "issuer_notes": "Our Bommasandra line runs a planned shutdown from 20 to 24 December; please do not schedule despatches into that week.\nArtwork for the printed shippers (BX-009, BX-010) changes in Q2. Quote the current artwork and tell us what a plate change would cost.\nAddress technical questions to the category manager named above. We will circulate any clarification to every supplier who was invited, so nobody answers a different question from the rest.",
+  "optional_lines": [
+    {
+      "sku": "BX-031",
+      "description": "5-ply corrugated box 350x250x200 mm",
+      "quantity": 5500,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-032",
+      "description": "Printed shipper box 600x400x400 mm",
+      "quantity": 2200,
+      "unit": "per box",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-033",
+      "description": "Die-cut box 250x150x100 mm",
+      "quantity": 7000,
+      "unit": "per box",
+      "moq": 500
+    },
+    {
+      "sku": "BX-034",
+      "description": "Corrugated sheet 800x600 mm",
+      "quantity": 8000,
+      "unit": "per sheet",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-035",
+      "description": "Heavy-duty 7-ply box 700x500x450 mm",
+      "quantity": 1500,
+      "unit": "per box",
+      "moq": 250
+    },
+    {
+      "sku": "BX-036",
+      "description": "Partition set, 6-cell",
+      "quantity": 4000,
+      "unit": "per set",
+      "moq": 1000
+    },
+    {
+      "sku": "BX-037",
+      "description": "Edge protector 40x40x4 mm",
+      "quantity": 18000,
+      "unit": "per unit",
+      "moq": 2000
+    },
+    {
+      "sku": "BX-038",
+      "description": "Kraft paper tape 72 mm x 50 m",
+      "quantity": 9000,
+      "unit": "per roll",
+      "moq": 1000
+    }
+  ]
+}
