@@ -38,22 +38,28 @@ class _AfcAdviceFilter(logging.Filter):
 
 logging.getLogger("google_genai.models").addFilter(_AfcAdviceFilter())
 
-# Model names are matched as substrings against the live list, and the live
-# list contains far more than chat models. "3-pro" matched
-# "gemini-3-pro-image-preview" -- an image-generation model, which accepts a
-# prompt happily and then never issues a function call, so the analyst sat
-# there with a database it could not query and the drafting co-pilot stopped
-# editing the request. Anything that is not a general text model is excluded by
-# name before the preference order is applied.
-_NOT_A_CHAT_MODEL = ("vision", "embedding", "embed", "image", "imagen", "veo",
-                     "tts", "audio", "live", "computer-use", "gemma",
-                     "learnlm", "aqa")
+# Model names are matched as substrings against the live list, and that list
+# holds far more than chat models: image generators, music generators, speech,
+# embeddings. "3-pro" matched "gemini-3-pro-image-preview" first, and then
+# "lyria-3-pro-preview" -- a MUSIC model. Both accept a prompt happily and
+# never issue a function call, so the analyst sat in front of a database it
+# could not query.
+#
+# The rule here is an allow-list, not a block-list, because a block-list is a
+# list of the surprises you have already had. A model qualifies only if its
+# name begins with "gemini-" -- the text families this application is built on
+# -- and does not name one of the non-text variants within that family.
+_GEMINI_PREFIX = "gemini-"
+_NOT_A_CHAT_MODEL = ("vision", "embedding", "embed", "image", "imagen",
+                     "tts", "audio", "live", "computer-use", "aqa")
 
 
 def usable_model(name: str) -> bool:
     """Is this a general text model we can hold a tool-calling conversation with?"""
     lowered = (name or "").lower()
-    return bool(lowered) and not any(bad in lowered for bad in _NOT_A_CHAT_MODEL)
+    if not lowered.startswith(_GEMINI_PREFIX):
+        return False
+    return not any(bad in lowered for bad in _NOT_A_CHAT_MODEL)
 
 
 _client: Optional[genai.Client] = None
